@@ -1,0 +1,60 @@
+header h3{
+    font-family: Roboto;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 500;
+    height: 24;
+    margin: 0%;
+    padding: 0%;
+}
+
+.toolsBar{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: 29px;
+    border: 1px solid black;
+    width: 228px;
+    height: 246px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+}
+
+.palette{
+    display: flex;
+    flex-direction: column;
+    margin-left: 29px;
+    margin-top: 82px;
+    width: 228px;
+    height: 246px;
+    border: 1px solid black;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+}
+
+.toolsBar div {
+    cursor: pointer;
+}
+
+#canvas {
+    border: 1px solid black;
+    margin-top: 40px;
+    position: relative;
+    width: 512px;
+    height: 512px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+[class*="tool-"]{
+    display: flex;
+    align-items: center;
+    padding: 5%;
+    color: black;
+    width: 100%;
+    height: 25%;
+    font-size: 20px;
+}
